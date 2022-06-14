@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\finish\cmsis -I..\..\..\workspace\finish\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\finish">
+      <target file="system_stm32f4xx.o" lastModified="17ec138cc95">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="17e786bc626"/>
+      </target>
+      <target file="printf.o" lastModified="17ec138cc0c">
+         <source file="..\..\..\stdio\printf.c" lastModified="17e786bd80b"/>
+      </target>
+      <target file="main.o" lastModified="17ed6714d7f">
+         <source file="..\..\..\main.c" lastModified="17ed6705b52"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="17ec138c9f8">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="17e786bc61a"/>
+      </target>
+   </processor>
+</history>
